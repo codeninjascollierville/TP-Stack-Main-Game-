@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using.UnityEngine.SceneManagement;
 
 public class new : MonoBehaviour
 {
-    using UnityEngine.UI;
-    using.UnityEngine.SceneManagement;
+   
 
     [Header("Cube Object")]
     public GameObject currentCube;
@@ -23,15 +24,15 @@ void Newblock()
 {
     if(lastCube != null)
     {
-        if (currentCube.transform.localScale.x <= 0f ||
-            currentCube.transform.localScale.z <= 0f)
-        {
-            Done = true;
-            text.GameObject.SetActive(true);
-            text.text = "Final Score " + Level;
-            StartCoroutine(X());
-            return;
-        }
+       // if (currentCube.transform.localScale.x <= 0f ||
+            //currentCube.transform.localScale.z <= 0f)
+       // {
+           // Done = true;
+            //text.GameObject.SetActive(true);
+//text.text = "Final Score " + Level;
+            //StartCoroutine(X());
+            //return;
+      //  }
 
 
 
