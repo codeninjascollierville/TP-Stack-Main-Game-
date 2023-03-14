@@ -3,7 +3,10 @@ guid: 1e3ce20d89ed88f45a927ca9d39b9033
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - currentCube: {instanceID: 0}
+  - lastCube: {instanceID: 0}
+  - text: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
